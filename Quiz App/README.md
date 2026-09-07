@@ -31,7 +31,9 @@ Quiz App/
 
 ## Project Screenshot
 
-![Quiz App](assets/screenshot.png)
+![Quiz App](assets/screenshot1.png)
+![Quiz App](assets/screenshot2.png)
+![Quiz App](assets/screenshot3.png)
 
 ## Live Demo
 
