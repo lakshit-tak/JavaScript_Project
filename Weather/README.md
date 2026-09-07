@@ -20,6 +20,7 @@ A simple and responsive Weather application built using HTML, CSS, and JavaScrip
 
 ## Project Structure
 
+```
 Weather-App/
 ├── weather.html
 ├── style.css
@@ -27,10 +28,11 @@ Weather-App/
 ├── assets/
 │   └── screenshot.png
 └── README.md
+```
 
 ## Project Screenshot
 
-"Weather App" (assets/screenshot.png)
+![weather](assets/screenshot.png)
 
 ## Live Demo
 

@@ -19,6 +19,7 @@ A simple and responsive Notes application built using HTML, CSS, and JavaScript.
 
 ## Project Structure
 
+```
 Notes App/
 ├── note.html
 ├── style.css
@@ -26,10 +27,11 @@ Notes App/
 ├── assets/
 │   └── screenshot.png
 └── README.md
+```
 
 ## Project Screenshot
 
-"Notes App" (assets/screenshot.png)
+![Notes App](assets/screenshot.png)
 
 ## Live Demo
 

@@ -64,6 +64,7 @@ const scoreElement = document.getElementById("score");
 const result = document.getElementById("result");
 const questionNumber = document.getElementById("questionNumber");
 const startBtn = document.getElementById("startBtn");
+const restart = document.getElementById("restart");
 
 let currentQuestion = 0;
 
@@ -71,10 +72,24 @@ let score = 0;
 
 let answered = false;
 
-startBtn.addEventListener("click", () =>{
-    
+startBtn.addEventListener("click", () => {
+
     startBtn.style.display = "none";
     showQuestion();
+    nextBtn.style.display = "block"
+});
+
+restart.addEventListener("click", () => {
+
+    restart.style.display = "none";
+
+    currentQuestion = 0;
+    score = 0;
+    scoreElement.textContent = `Score: ${score}`;
+    result.textContent = "";
+
+    showQuestion();
+    
     nextBtn.style.display = "block"
 });
 
@@ -90,7 +105,7 @@ const showQuestion = () => {
 
     answersElement.innerHTML = "";
 
-    current.answers.forEach((answer) =>{
+    current.answers.forEach((answer) => {
 
         const button = document.createElement("button");
 
@@ -99,32 +114,32 @@ const showQuestion = () => {
         button.classList.add("answerBtn");
 
         answersElement.appendChild(button);
-        button.addEventListener("click", ()=> {
+        button.addEventListener("click", () => {
 
-            if(answered){
+            if (answered) {
                 alert("option is selected alredy")
                 return;
             }
 
             answered = true;
 
-            if(answer === current.correct){
+            if (answer === current.correct) {
                 button.classList.add("correct");
 
                 score++;
 
                 scoreElement.textContent = `Score: ${score}`;
 
-            }else{
+            } else {
                 button.classList.add("wrong");
             }
         });
     });
 };
 
-nextBtn.addEventListener("click",() => {
+nextBtn.addEventListener("click", () => {
 
-    if(!answered){
+    if (!answered) {
 
         alert("first select an option")
         return;
@@ -132,16 +147,18 @@ nextBtn.addEventListener("click",() => {
 
     currentQuestion++;
 
-    if(currentQuestion<questions.length){
+    if (currentQuestion < questions.length) {
 
         showQuestion();
-    }else{
+    } else {
 
-        
+
         questionElement.textContent = "Quiz Completed";
 
         answersElement.textContent = "";
         nextBtn.style.display = "none";
+
+        restart.style.display = "block";
 
         result.textContent = `Your Score: ${score}/${questions.length}`;
     }

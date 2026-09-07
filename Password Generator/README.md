@@ -20,6 +20,7 @@ A simple and responsive Password Generator application built using HTML, CSS, an
 
 ## Project Structure
 
+```
 Password Generator/
 ├── password.html
 ├── style.css
@@ -27,10 +28,11 @@ Password Generator/
 ├── assets/
 │   └── screenshot.png
 └── README.md
+```
 
 ## Project Screenshot
 
-"Password Generator" (assets/screenshot.png)
+![Password Generator](assets/screenshot.png)
 
 ## Live Demo
 

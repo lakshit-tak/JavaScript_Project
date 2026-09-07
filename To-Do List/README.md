@@ -19,6 +19,7 @@ A simple and responsive To-Do List application built using HTML, CSS, and JavaSc
 
 ## Project Structure
 
+```
 To-Do List/
 ├── todo.html
 ├── style.css
@@ -26,6 +27,7 @@ To-Do List/
 ├── assets/
 │   └── screenshot.png
 └── README.md
+```
 
 ## Project Screenshot
 

@@ -92,7 +92,8 @@ body{
     background-color: #4d5ed1;
 }
 
-#nextBtn{
+#nextBtn,
+#restart {
     width: 100%;
     padding: 15px;
     margin-top: 25px;
@@ -105,7 +106,8 @@ body{
     display: none;
 }
 
-#nextBtn:hover{
+#nextBtn,
+#restart:hover{
     background-color: #4d5ed1;
 }
 

@@ -19,6 +19,7 @@ A simple and responsive Quiz application built using HTML, CSS, and JavaScript.
 
 ## Project Structure
 
+```
 Quiz App/
 ├── quiz.html
 ├── style.css
@@ -26,10 +27,11 @@ Quiz App/
 ├── assets/
 │   └── screenshot.png
 └── README.md
+```
 
 ## Project Screenshot
 
-"Quiz App" (assets/screenshot.png)
+![Quiz App](assets/screenshot.png)
 
 ## Live Demo
 

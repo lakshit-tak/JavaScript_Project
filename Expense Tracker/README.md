@@ -15,6 +15,7 @@ A simple and responsive Expense Tracker application.
 
 ## Project Structure
 
+```
 Expense Tracker/
 ├── expense.html
 ├── style.css
@@ -22,6 +23,7 @@ Expense Tracker/
 ├── assets/
 │   └── screenshot .png
 └── README.md
+```
 
 ## Project Screenshot
 
