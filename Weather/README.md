@@ -8,7 +8,6 @@ A simple and responsive Weather application built using HTML, CSS, and JavaScrip
 - Display current temperature
 - Display weather conditions
 - Display humidity
-- Display wind speed
 - Fetch real-time weather data using an API
 - Responsive design
 
